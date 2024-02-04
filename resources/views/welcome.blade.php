@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>laravel-vue-ssr</title>
+        @vite([
+            'resources/js/app.js',
+        ])
     </head>
     <body class="antialiased">
         <x-vue />
